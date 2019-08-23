@@ -1,3 +1,8 @@
+
+#pool:
+#  vmImage: 'Ubuntu-16.04'
+  
+#=======
 # ASP.NET Core
 # Build and test ASP.NET Core projects targeting .NET Core.
 # Add steps that run tests, create a NuGet package, deploy, and more:
@@ -8,6 +13,8 @@
 
 pool:
   vmImage: 'ubuntu-latest'
+  demands:
+    - npm
 
 variables:
   buildConfiguration: 'Release'

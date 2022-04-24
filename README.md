@@ -29,3 +29,8 @@ Privacy information can be found at https://privacy.microsoft.com/en-us/
 
 Microsoft and any contributors reserve all other rights, whether under their respective copyrights, patents,
 or trademarks, whether by implication, estoppel or otherwise.
+
+# Test Section
+
+Workflow status badge sample:
+[![CI](https://github.com/gtonet/mslearn-tailspin-spacegame-web/actions/workflows/Demo_workflow_1.yml/badge.svg)](https://github.com/gtonet/mslearn-tailspin-spacegame-web/actions/workflows/Demo_workflow_1.yml)
